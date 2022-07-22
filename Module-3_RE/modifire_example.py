@@ -1,0 +1,26 @@
+import re
+
+mystr="This is Python!6465465"
+
+#x=re.findall('[A-Z]',mystr)
+#x=re.findall('[a-z]',mystr)
+#x=re.findall('[A-Za-z]',mystr)
+#x=re.findall('[0-9]',mystr)
+#x=re.findall('[A-Za-z0-9]',mystr)
+#x=re.findall('^T',mystr)
+#x=re.findall('69$',mystr)
+#x=re.findall('^[A-Z]',mystr)
+#x=re.findall('[^A-Z]',mystr)
+#x=re.findall('\w',mystr)
+#x=re.findall('\W',mystr)
+#x=re.findall('\s',mystr)
+#x=re.findall('\S',mystr)
+#x=re.findall(r'\bThis',mystr)
+#x=re.findall('65\B',mystr)
+#x=re.findall('\AT',mystr)
+#x=re.findall('65\Z',mystr)
+#x=re.findall('\d',mystr)
+#x=re.findall('\D',mystr)
+#x=re.findall('Py...on',mystr)
+x=re.findall('This|That',mystr)
+print(x)
